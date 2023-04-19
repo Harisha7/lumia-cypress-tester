@@ -1,0 +1,65 @@
+import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
+
+Given('that I am on the start page', () => {
+  // TODO: implement step
+});
+
+Given('that I have searched for {string}', (a) => {
+  // TODO: implement step
+});
+
+When('I click the buy button {string} time', (a) => {
+  // TODO: implement step
+});
+
+Then('{string} {string} should be added to the cart', (a, b) => {
+  // TODO: implement step
+});
+
+Given('that I am on the start page', () => {
+  // TODO: implement step
+});
+
+Given('that I have searched for {string}', (a) => {
+  // TODO: implement step
+});
+
+When('I click the buy button {string} time', (a) => {
+  // TODO: implement step
+});
+
+Then('{string} {string} should be added to the cart', (a, b) => {
+  // TODO: implement step
+});
+
+Given('that I am on the start page', () => {
+  // TODO: implement step
+});
+
+Given('that I have searched for {string}', (a) => {
+  // TODO: implement step
+});
+
+When('I click the buy button {string} time', (a) => {
+  // TODO: implement step
+});
+
+Then('{string} {string} should be added to the cart', (a, b) => {
+  // TODO: implement step
+});
+
+Given('that I am on the start page', () => {
+  // TODO: implement step
+});
+
+Given('that I have searched for {string}', (a) => {
+  // TODO: implement step
+});
+
+When('I click the buy button {string} time', (a) => {
+  // TODO: implement step
+});
+
+Then('{string} {string} should be added to the cart', (a, b) => {
+  // TODO: implement step
+});
