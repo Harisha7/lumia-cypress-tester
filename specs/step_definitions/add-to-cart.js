@@ -11,7 +11,7 @@ import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 // if you want to reuse them in another step
 let searchedFor;
 
-Given('that I have searched for {string}', (searchTerm) => {
+Given('that I have searched for the {string}', (searchTerm) => {
   searchedFor = searchTerm;
   cy.get('#search').type(searchTerm);
 });

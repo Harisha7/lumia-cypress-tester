@@ -3,7 +3,7 @@ Feature: Add to cart
   to the cart, so that I can buy them.
 
   Background: 
-    Given that i am on the start page
+    Given that I am on the start page
 
   Scenario Outline: Adding "<quantity>" "<product>" to the cart
     Given that I have searched for the "<product>"
