@@ -5,10 +5,10 @@ Feature: Remove from cart
 	 Scenario: Remove "1" "Bordslampa" from the cart
      Given that I am on the start page
      And that I have searched for the "Bordslampa"
-     When I click the buy button "2" time
-     Then "2" "Bordslampa" should be added to the cart
-		 And I click the removeOne button "1" time
-		 Then "1" "Bordslampa" should be removed from the cart
+     When I click the buy button "5" time
+     Then "5" "Bordslampa" should be added to the cart
+		 And I click the removeOne button "2" time
+		 Then "3" "Bordslampa" should be left in the cart
 
   ## Then "1" "Golvlampa" should be added to the cart
 
