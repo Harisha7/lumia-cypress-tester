@@ -38,5 +38,5 @@ Then('{string} {string} should be removed from the cart', (quantity, productName
     // and also contains the correct quantity
     .contains(quantity - 'st')
     // we should 1 element
-    .should('have.length', 1);
+    .should('have.length', 0);
 });
