@@ -1,9 +1,11 @@
 name: test and deploy
 
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
-    
+
 jobs:
 
   # job 1: tests
@@ -69,7 +71,6 @@ jobs:
         # commands to run on your server
         # below just an example
         # can be more (like restarting pm2)
-        #
         script: |
           echo "cd to correct folder"
           cd /var/www/lumia-cypress-tester
