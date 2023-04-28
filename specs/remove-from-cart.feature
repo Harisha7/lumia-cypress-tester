@@ -5,7 +5,7 @@ Feature: Remove from cart
    Background:
      Given that I am on the start page
 
-   Scenario Outline: Remove "<quantity>" "<product>" from the cart 
+   ##Scenario Outline: Remove "<quantity>" "<product>" from the cart 
 
 	Scenario: Remove "1" "Bordslampa" from the cart
      Given that I am on the start page
